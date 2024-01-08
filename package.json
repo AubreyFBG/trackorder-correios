@@ -1,0 +1,31 @@
+{
+  "name": "ordertrack-correios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",  
+  "types": "dist/index.d.ts",  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "build": "tsc"  
+  },
+  "author": "misss_aubrey",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AubreyFBG/"
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.35",
+    "typescript": "^4.5.4",
+    "ts-node": "^10.4.0"
+  },
+  "files": [
+    "dist/**/*"  
+  ]
+}
