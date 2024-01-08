@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AubreyFBG/"
+    "url": "git+https://github.com/AubreyFBG/trackorder-correios.git"
   },
   "dependencies": {
     "axios": "^1.6.5",

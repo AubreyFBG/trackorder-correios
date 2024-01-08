@@ -24,7 +24,7 @@ getInfoPackages(["NL984562784BR", "NM002338920BR"]).then(data=>{
 })
 ```
 ###   🍣 GetInfoPackage Data Return:
-```json
+```js
 {
   orderCode: 'NL984562784BR',
   inTransit: false,
@@ -98,7 +98,7 @@ getInfoPackages(["NL984562784BR", "NM002338920BR"]).then(data=>{
 }
 ```
 ###   🥡 GetInfoPackages Data Return:
-```json
+```js
 [
   {
     orderCode: 'NL984562784BR',
