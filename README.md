@@ -3,10 +3,7 @@
 A npm package created to fetch data from one or more packages registered in the Brazilian postal service.
  -  Developed through the use of web scraping techniques, this npm library was created to extract tracking information from the website [https://www.linkcorreios.com.br/](https://www.linkcorreios.com.br/).
 </br>
-</br>
-<center>
 <a href="https://www.npmjs.com/package/trackorder-correios"><img src="https://nodei.co/npm/trackorder-correios.png"></a>
-</center>
 
 ## 🍙・Usage:
 
@@ -24,7 +21,7 @@ getInfoPackages(["NL984562784BR", "NM002338920BR"]).then(data=>{
 })
 ```
 ###   🍣 GetInfoPackage Data Return:
-```json
+```js
 {
   orderCode: 'NL984562784BR',
   inTransit: false,
@@ -98,7 +95,7 @@ getInfoPackages(["NL984562784BR", "NM002338920BR"]).then(data=>{
 }
 ```
 ###   🥡 GetInfoPackages Data Return:
-```json
+```js
 [
   {
     orderCode: 'NL984562784BR',
